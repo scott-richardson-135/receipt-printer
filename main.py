@@ -3,7 +3,7 @@ from canvas.courses import get_active_courses
 from canvas.assignments import get_assignments, due_within_7_days
 
 if __name__ == "__main__":
-    #print_custom_message("Sometimes I wish I was gurt\n")
+    print_custom_message("Sometimes I wish I was gurt\n")
 
     courses = get_active_courses()
     

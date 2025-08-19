@@ -6,3 +6,4 @@ def print_custom_message(message):
     printer.text(message)
     printer.cut()
     printer.close()
+    
