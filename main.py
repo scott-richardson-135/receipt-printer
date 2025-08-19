@@ -17,7 +17,7 @@ if __name__ == "__main__":
         filtered_assignments = due_within_7_days(assignments)
 
 
-        for assignment in assignments[:4]:
+        for assignment in filtered_assignments:
             aid = assignment.get("id")
             if aid not in printed_ids:
                 print_as_receipt(assignment, name)
