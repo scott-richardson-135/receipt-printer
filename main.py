@@ -4,7 +4,7 @@ from canvas.assignments import get_assignments, due_within_7_days
 from printer.printed_tracker import load_printed, save_printed_ids
 
 if __name__ == "__main__":
-
+    print("running printer script")
     courses = get_active_courses()
     printed_ids = load_printed()
 
